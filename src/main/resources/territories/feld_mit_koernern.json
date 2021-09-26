@@ -11,6 +11,7 @@
     "direction": "South",
     "grainCount": 0
   },
+  "tileToMeterScaling": 0.0,
   "specialTiles": [
     [
       {
@@ -23,7 +24,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -37,7 +39,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -51,7 +54,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -65,7 +69,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -79,7 +84,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -93,7 +99,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -107,7 +114,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -121,7 +129,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -135,7 +144,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -149,7 +159,8 @@
           "row": 0
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -163,7 +174,8 @@
           "row": 1
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -177,7 +189,8 @@
           "row": 1
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -191,7 +204,8 @@
           "row": 1
         },
         "tileType": "Floor",
-        "grainCount": 1
+        "grainCount": 1,
+        "hideGrainCount": false
       }
     ],
     [
@@ -205,7 +219,8 @@
           "row": 1
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -219,7 +234,8 @@
           "row": 2
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -233,7 +249,8 @@
           "row": 2
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -247,7 +264,8 @@
           "row": 2
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -261,7 +279,8 @@
           "row": 2
         },
         "tileType": "Floor",
-        "grainCount": 1
+        "grainCount": 1,
+        "hideGrainCount": false
       }
     ],
     [
@@ -275,7 +294,8 @@
           "row": 2
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -289,21 +309,8 @@
           "row": 3
         },
         "tileType": "Wall",
-        "grainCount": 0
-      }
-    ],
-    [
-      {
-        "column": 2,
-        "row": 3
-      },
-      {
-        "location": {
-          "column": 2,
-          "row": 3
-        },
-        "tileType": "Floor",
-        "grainCount": 1
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -317,7 +324,8 @@
           "row": 3
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -331,21 +339,8 @@
           "row": 4
         },
         "tileType": "Wall",
-        "grainCount": 0
-      }
-    ],
-    [
-      {
-        "column": 3,
-        "row": 4
-      },
-      {
-        "location": {
-          "column": 3,
-          "row": 4
-        },
-        "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -359,7 +354,23 @@
           "row": 4
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
+      }
+    ],
+    [
+      {
+        "column": 5,
+        "row": 4
+      },
+      {
+        "location": {
+          "column": 5,
+          "row": 4
+        },
+        "tileType": "Wall",
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -373,7 +384,8 @@
           "row": 4
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -387,7 +399,8 @@
           "row": 5
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -401,7 +414,8 @@
           "row": 5
         },
         "tileType": "Floor",
-        "grainCount": 2
+        "grainCount": 2,
+        "hideGrainCount": false
       }
     ],
     [
@@ -415,7 +429,8 @@
           "row": 5
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -429,7 +444,8 @@
           "row": 6
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -443,7 +459,8 @@
           "row": 6
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -457,7 +474,8 @@
           "row": 6
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -471,7 +489,8 @@
           "row": 7
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -485,7 +504,8 @@
           "row": 7
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -499,7 +519,8 @@
           "row": 7
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -513,7 +534,8 @@
           "row": 7
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -527,12 +549,13 @@
           "row": 8
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
       {
-        "column": 1,
+        "column": 3,
         "row": 8
       },
       {
@@ -541,7 +564,8 @@
           "row": 8
         },
         "tileType": "Floor",
-        "grainCount": 2
+        "grainCount": 2,
+        "hideGrainCount": false
       }
     ],
     [
@@ -555,7 +579,8 @@
           "row": 8
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -569,7 +594,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -583,7 +609,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -597,7 +624,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -611,7 +639,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -625,7 +654,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -639,7 +669,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -653,7 +684,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -667,7 +699,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -681,7 +714,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ],
     [
@@ -695,7 +729,8 @@
           "row": 9
         },
         "tileType": "Wall",
-        "grainCount": 0
+        "grainCount": 0,
+        "hideGrainCount": false
       }
     ]
   ]
