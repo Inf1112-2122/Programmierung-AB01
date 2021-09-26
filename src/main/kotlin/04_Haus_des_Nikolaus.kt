@@ -1,6 +1,8 @@
+import de.github.dudrie.hamster.imperative.de.legeKornAb
+
 fun main() {
     // Starte das Spiel (für die Aufgabe)
-    starteGrossesFeldSpiel()
+    starteHausDesNikolausSpiel()
 
     // Implementiere die Lösung
 
